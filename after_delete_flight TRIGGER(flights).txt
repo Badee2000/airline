@@ -1,0 +1,6 @@
+UPDATE users
+JOIN books
+SET users.balance=users.balance+OLD.price
+
+
+WHERE books.flight_number=OLD.id

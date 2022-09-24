@@ -1,0 +1,3 @@
+UPDATE flights 
+SET flights.num_of_passengers=flights.num_of_passengers-1 
+WHERE flights.id=NEW.flight_number

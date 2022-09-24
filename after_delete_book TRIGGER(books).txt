@@ -1,0 +1,3 @@
+UPDATE users
+SET users.balance=users.balance+OLD.price
+WHERE users.id=OLD.userid

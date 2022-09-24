@@ -1,0 +1,4 @@
+UPDATE users
+JOIN flights
+SET flights.num_of_passengers=flights.num_of_passengers+1
+WHERE users.id=NEW.userid AND NEW.approved=0
