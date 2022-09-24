@@ -1,0 +1,43 @@
+div a {
+    margin-left: 20px !important;
+
+    text-decoration: none;
+
+}
+footer {
+    margin-top: 50px !important;
+      width: auto !important;
+      height: auto !important;
+      text-align: center !important;
+      color: red !important;
+      margin-left: auto !important;
+      background-color: rgb(125, 125, 230) !important;
+}
+
+.main {
+    margin-top: 20px;
+  }
+  .weather-panel {
+    width: max-content;
+    padding: 10px;
+    margin-left: auto;
+    background-image: url("../images/paris.jpg") ;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 25px 25px 40px 0px rgba(0,0,0,0.33);
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+  }
+    small {
+      color: inherit;
+      font-size: 50%;
+    }
+    ul.forecast > li {
+      border-top: 1px solid #fff;
+    }
+    .temperature {
+      & > span {
+          font-size: 2em;
+      }
+    }
